@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if Red green 1`] = `
+<body>
+  <div>
+    <div
+      class="display panel"
+    >
+      <div
+        class="led green-led"
+        data-testid="lockedUnlocked"
+      >
+        Unlocked
+      </div>
+      <div
+        class="led red-led"
+        data-testid="closedOpen"
+      >
+        Closed
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test if green Green 1`] = `
+<body>
+  <div>
+    <div
+      class="display panel"
+    >
+      <div
+        class="led green-led"
+        data-testid="lockedUnlocked"
+      >
+        Unlocked
+      </div>
+      <div
+        class="led green-led"
+        data-testid="closedOpen"
+      >
+        Open
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test if red Red 1`] = `
+<body>
+  <div>
+    <div
+      class="display panel"
+    >
+      <div
+        class="led red-led"
+        data-testid="lockedUnlocked"
+      >
+        Locked
+      </div>
+      <div
+        class="led red-led"
+        data-testid="closedOpen"
+      >
+        Closed
+      </div>
+    </div>
+  </div>
+</body>
+`;
